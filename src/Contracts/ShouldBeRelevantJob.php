@@ -2,7 +2,7 @@
 
 namespace Coderello\RelevanceEnsurer\Contracts;
 
-interface ShouldBeRelevant
+interface ShouldBeRelevantJob
 {
     public function isRelevant(): bool;
 }
