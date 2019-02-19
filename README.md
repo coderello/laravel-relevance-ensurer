@@ -27,7 +27,7 @@ But what if the user leaves the meetup? In this case, we should prevent the noti
 
 Here **Laravel Relevance Ensurer** comes to help.
 
-The only thing we need to do is to implement `ShouldBeRelevantNotification` contract on the notification. It comes with one public method `isRelevant($notifyer)` which should return bool representing relevance of the notification before one being sent.
+The only thing we need to do is to implement `ShouldBeRelevantNotification` contract on the notification. It comes with one public method `isRelevant($notifyer)` which should return bool representing relevance of the notification before one is sent.
 
 Let's take a look at an example:
 
@@ -68,8 +68,7 @@ class MeetingReminder extends Notification implements ShouldQueue, ShouldBeRelev
 
 So if the notification is relevant, it'll be sent and vice versa.
 
-Almost the same contract exists for a jobs. The only difference is that ShouldBeRelevantJob's isRelevant() method doesn't accept any arguments.
-
+Almost the same contract exists for jobs. The only difference is that ShouldBeRelevantJob's isRelevant() method doesn't accept any arguments.
 
 ## Contributing
 
