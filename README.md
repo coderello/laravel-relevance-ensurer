@@ -41,8 +41,7 @@ use Illuminate\Notifications\Notification;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Coderello\RelevanceEnsurer\Contracts\ShouldBeRelevantNotification;
 use App\Models\Meetup;
-use 
-Illuminate\Queue\SerializesModels;
+use Illuminate\Queue\SerializesModels;
 
 class MeetingReminder extends Notification implements ShouldQueue, ShouldBeRelevantNotification
 {
