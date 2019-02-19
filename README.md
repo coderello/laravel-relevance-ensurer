@@ -54,9 +54,9 @@ class MeetingReminder extends Notification implements ShouldQueue, ShouldBeRelev
         $this->meetup = $meetup;
     }
 
-    public function isRelevant($notifier): bool
+    public function isRelevant($notifiable): bool
     {
-        return $this->meetup->users()->where('id', $notifier)->exists();
+        return $this->meetup->users()->where('id', $notifiable)->exists();
     }
 
     public function toMail($notifiable)
