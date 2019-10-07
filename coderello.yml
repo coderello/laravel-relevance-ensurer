@@ -1,6 +1,0 @@
-site:
-  show: true
-  title: 'Laravel Relevance Ensurer'
-  description: 'Ensure the relevance of your jobs and notifications.'
-  package_repository: 'packagist'
-  package_name: 'coderello/laravel-relevance-ensurer'
