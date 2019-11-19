@@ -1,4 +1,4 @@
-<p align="center"><img alt="Laravel Relevance Ensurer" src="https://i.imgur.com/AytDebo.png" width="500"></p>
+<p align="center"><img alt="Laravel Relevance Ensurer" src="https://coderello.com/images/packages/laravel-relevance-ensurer.png" width="500"></p>
 
 <p align="center"><b>Laravel Relevance Ensurer</b> provides an easy way not to process notifications and jobs which became irrelevant.</p>
 
